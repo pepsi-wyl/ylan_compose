@@ -43,11 +43,14 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import site.ylan.compose.ui.Component.AlertDialogExample
 import site.ylan.compose.ui.Component.CheckboxMinimalExample
 import site.ylan.compose.ui.Component.CheckboxParentExample
 import site.ylan.compose.ui.Component.ChipExample
 import site.ylan.compose.ui.Component.HorizontalMultiBrowseCarouselDemo
 import site.ylan.compose.ui.Component.HorizontalUncontainedCarouselDemo
+import site.ylan.compose.ui.Component.MinimalDialog
+import site.ylan.compose.ui.Component.WithImageDialog
 import site.ylan.compose.ui.theme.AppTheme
 
 class MainActivity : ComponentActivity() {
@@ -62,7 +65,10 @@ class MainActivity : ComponentActivity() {
                 // HorizontalUncontainedCarouselDemo()
                 // CheckboxMinimalExample()
                 // CheckboxParentExample()
-                ChipExample()
+                // ChipExample()
+                // AlertDialogExample()
+                // MinimalDialog()
+                WithImageDialog()
             }
         }
     }
