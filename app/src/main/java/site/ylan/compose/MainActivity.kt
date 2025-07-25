@@ -45,6 +45,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import site.ylan.compose.ui.Component.CheckboxMinimalExample
 import site.ylan.compose.ui.Component.CheckboxParentExample
+import site.ylan.compose.ui.Component.ChipExample
 import site.ylan.compose.ui.Component.HorizontalMultiBrowseCarouselDemo
 import site.ylan.compose.ui.Component.HorizontalUncontainedCarouselDemo
 import site.ylan.compose.ui.theme.AppTheme
@@ -60,7 +61,8 @@ class MainActivity : ComponentActivity() {
                 // HorizontalMultiBrowseCarouselDemo()
                 // HorizontalUncontainedCarouselDemo()
                 // CheckboxMinimalExample()
-                CheckboxParentExample()
+                // CheckboxParentExample()
+                ChipExample()
             }
         }
     }
