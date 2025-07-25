@@ -47,6 +47,8 @@ import site.ylan.compose.ui.Component.AlertDialogExample
 import site.ylan.compose.ui.Component.CheckboxMinimalExample
 import site.ylan.compose.ui.Component.CheckboxParentExample
 import site.ylan.compose.ui.Component.ChipExample
+import site.ylan.compose.ui.Component.DatePickerDocked
+import site.ylan.compose.ui.Component.DatePickerFieldToModal
 import site.ylan.compose.ui.Component.HorizontalDividerExample
 import site.ylan.compose.ui.Component.HorizontalMultiBrowseCarouselDemo
 import site.ylan.compose.ui.Component.HorizontalUncontainedCarouselDemo
@@ -71,8 +73,10 @@ class MainActivity : ComponentActivity() {
                 // AlertDialogExample()
                 // MinimalDialog()
                 // WithImageDialog()
-                HorizontalDividerExample()
-                VerticalDividerExample()
+                // HorizontalDividerExample()
+                // VerticalDividerExample()
+                DatePickerDocked()
+                // DatePickerFieldToModal()
             }
         }
     }
