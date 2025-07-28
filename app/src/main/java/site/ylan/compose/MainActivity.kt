@@ -49,6 +49,7 @@ import site.ylan.compose.ui.Component.CheckboxParentExample
 import site.ylan.compose.ui.Component.ChipExample
 import site.ylan.compose.ui.Component.DatePickerDocked
 import site.ylan.compose.ui.Component.DatePickerFieldToModal
+import site.ylan.compose.ui.Component.DetailedDrawerExample
 import site.ylan.compose.ui.Component.DropdownMenuWithDetails
 import site.ylan.compose.ui.Component.HorizontalDividerExample
 import site.ylan.compose.ui.Component.HorizontalMultiBrowseCarouselDemo
@@ -82,7 +83,12 @@ class MainActivity : ComponentActivity() {
                 // DatePickerFieldToModal()
                 // MinimalDropdownMenu()
                 // LongBasicDropdownMenu()
-                DropdownMenuWithDetails()
+                // DropdownMenuWithDetails()
+                DetailedDrawerExample(
+                    content = {
+                        Text("DetailedDrawerExample")
+                    }
+                )
             }
         }
     }
