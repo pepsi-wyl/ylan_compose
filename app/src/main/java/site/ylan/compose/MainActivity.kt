@@ -54,6 +54,8 @@ import site.ylan.compose.ui.Component.DropdownMenuWithDetails
 import site.ylan.compose.ui.Component.HorizontalDividerExample
 import site.ylan.compose.ui.Component.HorizontalMultiBrowseCarouselDemo
 import site.ylan.compose.ui.Component.HorizontalUncontainedCarouselDemo
+import site.ylan.compose.ui.Component.IndeterminateCircularIndicator
+import site.ylan.compose.ui.Component.LinearDeterminateIndicator
 import site.ylan.compose.ui.Component.LongBasicDropdownMenu
 import site.ylan.compose.ui.Component.MinimalDialog
 import site.ylan.compose.ui.Component.MinimalDropdownMenu
@@ -84,11 +86,13 @@ class MainActivity : ComponentActivity() {
                 // MinimalDropdownMenu()
                 // LongBasicDropdownMenu()
                 // DropdownMenuWithDetails()
-                DetailedDrawerExample(
-                    content = {
-                        Text("DetailedDrawerExample")
-                    }
-                )
+                // DetailedDrawerExample(
+                //    content = {
+                //        Text("DetailedDrawerExample")
+                //    }
+                // )
+                // LinearDeterminateIndicator()
+                IndeterminateCircularIndicator()
             }
         }
     }
