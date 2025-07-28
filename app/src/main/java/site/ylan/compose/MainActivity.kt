@@ -49,10 +49,13 @@ import site.ylan.compose.ui.Component.CheckboxParentExample
 import site.ylan.compose.ui.Component.ChipExample
 import site.ylan.compose.ui.Component.DatePickerDocked
 import site.ylan.compose.ui.Component.DatePickerFieldToModal
+import site.ylan.compose.ui.Component.DropdownMenuWithDetails
 import site.ylan.compose.ui.Component.HorizontalDividerExample
 import site.ylan.compose.ui.Component.HorizontalMultiBrowseCarouselDemo
 import site.ylan.compose.ui.Component.HorizontalUncontainedCarouselDemo
+import site.ylan.compose.ui.Component.LongBasicDropdownMenu
 import site.ylan.compose.ui.Component.MinimalDialog
+import site.ylan.compose.ui.Component.MinimalDropdownMenu
 import site.ylan.compose.ui.Component.VerticalDividerExample
 import site.ylan.compose.ui.Component.WithImageDialog
 import site.ylan.compose.ui.theme.AppTheme
@@ -75,8 +78,11 @@ class MainActivity : ComponentActivity() {
                 // WithImageDialog()
                 // HorizontalDividerExample()
                 // VerticalDividerExample()
-                DatePickerDocked()
+                // DatePickerDocked()
                 // DatePickerFieldToModal()
+                // MinimalDropdownMenu()
+                // LongBasicDropdownMenu()
+                DropdownMenuWithDetails()
             }
         }
     }
