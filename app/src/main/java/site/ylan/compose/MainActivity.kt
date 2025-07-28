@@ -60,6 +60,7 @@ import site.ylan.compose.ui.Component.LongBasicDropdownMenu
 import site.ylan.compose.ui.Component.MinimalDialog
 import site.ylan.compose.ui.Component.MinimalDropdownMenu
 import site.ylan.compose.ui.Component.PullToRefreshSample
+import site.ylan.compose.ui.Component.RadioButtonSingleSelection
 import site.ylan.compose.ui.Component.VerticalDividerExample
 import site.ylan.compose.ui.Component.WithImageDialog
 import site.ylan.compose.ui.theme.AppTheme
@@ -94,7 +95,8 @@ class MainActivity : ComponentActivity() {
                 // )
                 // LinearDeterminateIndicator()
                 // IndeterminateCircularIndicator()
-                PullToRefreshSample()
+                // PullToRefreshSample()
+                RadioButtonSingleSelection()
             }
         }
     }
